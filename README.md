@@ -75,3 +75,10 @@ Part 2) Notes
 =================
 Used Google Fonts. Links provided in both `homepage/good.css` and `homepage/bad.css`.
 
+### Screenshots
+__"Nice" Site:__
+!["Nice" Site Screenshot](good.png)
+
+__"Ugly" Site:__
+!["Ugly" Site Screenshot](bad.png)
+
