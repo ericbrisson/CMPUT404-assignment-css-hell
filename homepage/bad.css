@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+/* set background to a garish gradient */
+body {
+    background: linear-gradient(to bottom right, #ff007f, #ff5f5f, #ffaf00, #ffcf40, #c6ff00, #02d3ff, #5f00ff, #8f00ff, #ff00ff);
+}
+
+/* set font to Comic Neue in bold for all header tags */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Comic Neue";
+    font-weight: bold;
+    color: #932e93;
+    text-shadow: 1px 1px #000;
+}
+
+/* set font to Comic Neue in italic for all paragraph tags */
+p {
+    font-family: "Comic Neue";
+    color: #00ffff;
+    font-style: italic;
+    text-shadow: 1px 1px #000;
+}
+
+/* set font to Comic Neue in bold and italic for all li tags, and add space between them */
+li {
+    font-family: "Comic Neue";
+    color: #ffff00;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000;
+}
+
+/* for the profile-pic class, make it spin and change colors */
+.profile-pic {
+    border-radius: 50%;
+    width: 80%;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        border: 5px solid #ff00ff;
+    }
+
+    to {
+        border: 5px solid #00ff00;
+        transform: rotate(360deg);
+    }
+}
+
+/* for the page container class, make it such that it has a margin of 20px on all sides, but has a max width of 1400px yet keeps all the content centered */
+.page-container {
+    margin: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #ff00ff;
+    border: 10px solid #00ffff;
+    box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* for the content class, made it appear like a card with rounded corners, a slight box shadow, and in the color #444653 */
+.content {
+    background: #00ff00;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    color: #00ff00;
+    font-size: 24px;
+    text-shadow: 2px 2px #000;
+    transform: rotate(10deg);
+}
+
+/* for the sidebar class, make it a sticky sidebar widget that stays in place while scrolling */
+.sidebar {
+    padding: 10px;
+    transform: skew(20deg);
+}
+

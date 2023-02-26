@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: #343540;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    font-family: "Roboto";
+    color: white;
+}
+
+li {
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.page-container {
+    margin: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.content {
+    background: #444653;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    /* on hover, make the box shadow more pronounced */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.content:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* for the sidebar class, make it a sticky sidebar widget that stays in place while scrolling */
+.sidebar {
+    position: sticky;
+    top: 20px;
+}
+
+/* for the flex-parent class, make it a parent css flexbox container */
+.flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* for the flex-child-30 class, make it a child css flexbox container that takes up 30% of the parent container width */
+.flex-child-30 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+/* for the flex-child-70 class, make it a child css flexbox container that takes up 70% of the parent container width */
+.flex-child-70 {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+/* for the header class, center all text */
+.header {
+    text-align: center;
+}
+
