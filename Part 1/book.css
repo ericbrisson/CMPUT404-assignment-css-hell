@@ -1,0 +1,43 @@
+/* covers all p elements */
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: black;
+}
+
+/* covers all div elements */
+/* some text is sitting in divs without p elements */
+div {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: black;
+}
+
+/* covers all header elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: teal;
+}
+
+/* make the page background look like an old sheet of paper */
+/* center all text for fun */
+body {
+    background-color: #f0e0c6;
+    background-image: url("paper.jpg");
+    background-repeat: repeat;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* copied from original site's css to center cover image, which is sitting in a div given a class of "fig" */
+.fig {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
